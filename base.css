@@ -32,6 +32,36 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+fieldset {
+    width: 600px;
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 75px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.card-personal {
+    border: 1px solid #64696d;
+    border-radius: 5px;
+    -webkit-box-shadow: -9px 9px 15px -7px #000000; 
+    box-shadow: -9px 9px 15px -7px #000000;
+}
+
+legend {
+    border: 1px solid #64696d;
+    border-radius: 5px;
+    -webkit-box-shadow: -9px 9px 15px -7px #000000; 
+    box-shadow: -9px 9px 15px -7px #000000;
+}
+
 .footer {
     display: flex;
     align-center: center; 
