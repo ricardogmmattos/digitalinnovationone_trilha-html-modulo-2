@@ -21,34 +21,177 @@
             <!-- Aqui vai o seu menu -->
             <ul>
                 <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>]
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <div id="logo"> <img src="./imagens/Clinicor.png" alt="logo" width="150px" class="center"> </div>
+                <div>
+                    <navbar class="center navbar">
+                        <ul class="center">
+                            <li><a href="#" class="mymenu" title="Home">Home</a></li>
+                            <li><a href="#" class="mymenu" title="Sobre">Sobre</a></li>
+                            <li><a href="#" class="mymenu" title="Portfolio">Horário</a></li>
+                            <li><a href="#" class="mymenu" title="Contato">Contato</a></li>
+                        </ul>
+                  </navbar>
+                </div>
             </div>
     
             <div class="content">
-                <h1>Formulário de Contato</h1>
-            <fieldset class="card-personal">
+            <!-- Aqui vai o seu conteúdo -->
+
+            <video src="./imagens/pexels-pavel-danilyuk-8747601-2160x3840-25fps.mp4" controls autoplay width="1080px"  class="center"></video>
+            <div>
+            <table  class="center-table" summary="Exemplo de Título"  width="600" align-text="center" cellspacing="0" cellpadding="5">
+                <!-- <caption>Exemplo de Título</caption> -->
+                <thead>
+                    <tr>
+                        <th colspan="4">Horário de Funcionamento</th>
+                    </tr>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clínica geral</td>
+                        <td>09h - 19h</td>
+                        <td>09h - 14h</td>
+                        <td>09h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>09h - 19h</td>
+                        <td>09h - 14h</td>
+                        <td>09h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>09h - 19h</td>
+                        <td>09h - 14h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Oftamologia</td>
+                        <td>09h - 19h</td>
+                        <td>09h - 14h</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+                <!--
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Oftamologia</td>
+                    </tr>
+                </tfoot>
+                -->
+            </table>
+            </div>
+            
+            <div class="center-table">
+                <h1>Entre em Contato</h1>
+            <fieldset class="card-personal center-table">
                 <legend>Dados Pessoais</legend>
-                <div class="row">
-                    <label>Nome:</label><input type="text" name="name" id="name">
-                    <label>Sobrenome:</label><input type="text" name="surname" id="surname">
-                </div>
-                <div class="row">
-                    <label>E-mail:</label><input type="email" name="email" id="email">
-                    <label>Telefone:</label><input type="tel" name="tel" id="tel">
-                </div>
-                <div class="row">
-                    <button type="reset">limpar</button>
-                    <button type="submit">enviar</button>
-                </div>
+                    <div class="row">
+                        <label>Nome:</label><input type="text" name="name" id="name">
+                        <label>Sobrenome:</label><input type="text" name="surname" id="surname">
+                    </div>
+                    <div class="row">
+                        <label>E-mail:</label><input type="email" name="email" id="email">
+                        <label>Telefone:</label><input type="tel" name="tel" id="tel">
+                    </div>
+                    <div class="row">
+                        <button type="reset">limpar</button>
+                        <button type="submit">enviar</button>
+                    </div>
             </fieldset>
-                
-                <!-- Aqui vai o seu conteúdo -->
+            </div>    
+            
+            <!-- Form 2 -->
+<div class="form-2-container section-container section-container-gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col form-2 section-description wow fadeIn">
+                <h2>Form 2</h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+                <p>A form with 3 "fieldset"-s and 3 "legend"-s: "First / Last name", "About" and "Preferences".</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col form-2-box wow fadeInUp">
+ 
+                <form action="" method="post">
+ 
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- First / Last Name -->
+                            <fieldset class="form-group border p-3">
+                                <legend class="w-auto px-2">First / Last Name</legend>
+                                <div class="form-group">
+                                    <label for="firstname">First name:</label>
+                                    <input type="text" class="form-control firstname" id="firstname" placeholder="First name..." name="firstname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname">Last name:</label>
+                                    <input type="text" class="form-control lastname" id="lastname" placeholder="Last name..." name="lastname">
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- About -->
+                            <fieldset class="form-group border p-3">
+                                <legend class="w-auto px-2">About You</legend>
+                                <div class="form-group">
+                                    <label for="about">About:</label>
+                                    <textarea class="form-control about" id="about" placeholder="Tell us about you..." name="about"></textarea>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+ 
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Preferences  -->
+                            <fieldset class="form-group border p-3">
+                                <legend class="w-auto px-2">Preferences</legend>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="john" id="john" value="john">
+                                    <label class="form-check-label" for="john">I want to subscribe to <strong>John's</strong> newsletter</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="sarah" id="sarah" value="sarah">
+                                    <label class="form-check-label" for="sarah">I want to subscribe to <strong>Sarah's</strong> newsletter</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="paolo" id="paolo" value="paolo">
+                                    <label class="form-check-label" for="paolo">I want to subscribe to <strong>Paolo's</strong> newsletter</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+ 
+                    <!-- Submit Button  -->
+                    <div class="form-group row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary btn-customized">Subscribe</button>
+                        </div>
+                    </div>
+ 
+                </form>
+ 
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="maps">
                 <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
