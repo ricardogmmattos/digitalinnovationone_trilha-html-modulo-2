@@ -11,34 +11,27 @@
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul class="menulateral navbar center">
-                <li class="menulateral"><a href="www.uol.com.br">Página Principal</a></li>
-                <li class="menulateral"><a href="www.g1.com.br">Sobre a Clínica </a></li>
-                <li class="menulateral"><a href="www.uol.com.br">Horário de Funcionamento</a></li>
-                <li class="menulateral"><a href="www.g1.com.br">Contato</a></li>
-            </ul>
+            <div>
+                <navbar class="menu">
+                    <ul>
+                        <li><a href="#" class="menu" title="Home">Home</a></li><br>
+                        <li><a href="#" class="menu" title="Sobre">Sobre</a></li><br>
+                        <li><a href="#" class="menu" title="Horário">Horário</a></li><br>
+                        <li><a href="#" class="menu" title="Contato">Contato</a></li><br>
+                    </ul>
+              </navbar>
+            </div>
         </div>
 
         <div class="main">
             <div class="header">
                 <div id="logo"> <img src="./imagens/Clinicor.png" alt="logo" width="150px" class="center"> </div>
-                <div>
-                    <navbar class="center navbar">
-                        <ul class="center">
-                            <li><a href="#" class="mymenu" title="Home">Home</a></li>
-                            <li><a href="#" class="mymenu" title="Sobre">Sobre</a></li>
-                            <li><a href="#" class="mymenu" title="Horário">Horário</a></li>
-                            <li><a href="#" class="mymenu" title="Contato">Contato</a></li>
-                        </ul>
-                  </navbar>
-                </div>
             </div>
     
-            <div class="content">
+        <div class="content">
             <!-- Aqui vai o seu conteúdo -->
 
-            <div width="600px">
+            <div>
                 <p>Uma clínica de odontopediatria e ortodontia é um estabelecimento médico especializado no atendimento odontológico de crianças e adolescentes, abrangendo tanto a área da odontopediatria quanto a ortodontia. Essas duas especialidades trabalham em conjunto para garantir a saúde bucal e o desenvolvimento adequado da dentição durante a infância e a adolescência.</p>
                 <p>A odontopediatria é a área da odontologia voltada para o cuidado odontológico infantil. Os profissionais dessa especialidade possuem conhecimento específico sobre o crescimento e desenvolvimento dos dentes de leite, bem como das estruturas bucais das crianças. Eles são treinados para lidar com as necessidades particulares das crianças, criando um ambiente acolhedor e amigável para tornar a visita ao dentista uma experiência positiva.</p>
                 <p>Na clínica de odontopediatria, é comum encontrar profissionais que usam técnicas lúdicas e educativas para ensinar as crianças sobre a importância da higiene bucal e incentivá-las a cuidar dos dentes desde cedo. Além disso, eles realizam procedimentos preventivos, como aplicação de flúor e selantes, para evitar a ocorrência de cáries e outras doenças bucais.</p>
@@ -107,34 +100,45 @@
                     </table>
                 </div>
             
-            <div class="center-table">
-                <h1>Entre em Contato</h1>
-            <fieldset class="card-personal center-table">
-                <legend>Dados Pessoais</legend>
-                    <div class="row">
-                        <label>Nome:</label><input type="text" name="name" id="name">
-                        <label>Sobrenome:</label><input type="text" name="surname" id="surname">
-                    </div>
-                    <div class="row">
-                        <label>E-mail:</label><input type="email" name="email" id="email">
-                        <label>Telefone:</label><input type="tel" name="tel" id="tel">
-                    </div>
-                    <div>
-                        <button type="reset">limpar</button>
-                        <button type="submit">enviar</button>
-                    </div>
-            </fieldset>
-            </div>    
             
-            <div class="maps">
-                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="89.5%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-            </div>
         </div>
             <!-- Aqui vai o seu rodapé -->
             <div class="footer">
-                <sub>feito por ESTÚDIO 39 | AGÊNCIA CRIATIVA - 2023</sub>
+                
+                <div class="center">
+                    <h1 class="center-text">Entre em Contato</h1>
+                </div> 
+                <div>
+                        <fieldset class="card-personal center-table">
+                            <legend>Dados Pessoais</legend>
+                                <div class="row">
+                                    <label>Nome:</label><input type="text" name="name" id="name">
+                                    <label>Sobrenome:</label><input type="text" name="surname" id="surname">
+                                </div>
+                                <div class="row">
+                                    <label>E-mail:</label><input type="email" name="email" id="email">
+                                    <label>Telefone:</label><input type="tel" name="tel" id="tel">
+                                </div>
+                                <div>
+                                    <button type="reset">limpar</button>
+                                    <button type="submit">enviar</button>
+                                </div>
+                        </fieldset>
+                    </div>
+                
+                <div class="center">
+                    <div class="maps center-text">
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="89.5%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3089.835878228715!2d-43.18068442048742!3d-22.933471441271205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1685132930701!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+                    </div>
+                </div>
+                
+                
+                <div class="center">
+                    <sub class="center-text">feito por ESTÚDIO 39 | AGÊNCIA CRIATIVA - 2023</sub>
+                </div>
+
             </div>
         
     </div>

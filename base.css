@@ -1,6 +1,7 @@
 * {
     border-box: 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
 }
 
 html, body {
@@ -26,8 +27,10 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
     padding: 10px 20px 0px;
+    list-style: none;
+    text-decoration: none;
 }
 
 .header {
@@ -35,41 +38,26 @@ body {
     min-height: 10px;
 }
 
+li {
+    text-decoration: 0;
+}
+
+
 ul {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
     padding: 0px;
 }
 
-li {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    list-style:none;
-}
 
-li .mymenu {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size:1.2em;
-   text-decoration: none;
-   color:#000000;
-   -webkit-border-box: 0 1px 0 0 #4c4c4c;
-   border-bottom: 4px solid transparent;
-   -webkit-transition: border-bottom .3s linear;
-}
 
-li .mymenu:hover {    
-    border-bottom:4px solid #4c4c4c;
-}
-
+/*Content*/
 .content {
     background-color: white;
     min-height: 300px;
-  
+    padding: 50px;
 }
 
-
+/*Contato*/
 fieldset {
     width: 600px;
 }
@@ -99,11 +87,10 @@ legend {
 }
 
 .footer {
-    display: flex;
-    justify-content: center; 
-    background-color: rgb(223, 223, 223);
+    display: block;
+    background-color: rgb(255, 255, 255);
     min-height: 50px;
-    padding: 0px;
+    padding: 20px;
 }
 
 .center {
@@ -112,12 +99,21 @@ legend {
     margin-bottom: 20px;
   }
 
+.center-text {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
   .center-table {
     display: block;
     margin: auto;
     margin-bottom: 20px;
   }
 
+
+
+/* Tabela */  
 table {
     -webkit-box-shadow: -6px 4px 11px -3px rgba(0,0,0,0.4); 
     box-shadow: -6px 4px 11px -3px rgba(0,0,0,0.4);
@@ -134,7 +130,7 @@ table tbody tr:nth-child(even) td {
 }
 
 table tbody tr:hover td {
-    background-color: #8bd19d;
+    background-color: #9b9b9b;
     cursor: pointer;
 }
 
@@ -145,34 +141,12 @@ table tfoot td {
     /*border: solid 1px #64696d;*/
 }
 
-
-
 td { 
     text-align: center;
 }
 
+/*Mapas*/
 .maps {
     width: 900px;
     padding:0%;
-}
-
-.menulateral {
-    display: block;
-    list-style:none;
-    text-decoration: none;
-    color:#000000;
-}
-
-li .menublock {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size:1.2em;
-   text-decoration: none;
-   color:#000000;
-   -webkit-border-box: 0 1px 0 0 #4c4c4c;
-   border-bottom: 4px solid transparent;
-   -webkit-transition: border-bottom .3s linear;
-}
-
-li .menublock:hover {    
-    border-bottom:4px solid #4c4c4c;
 }
